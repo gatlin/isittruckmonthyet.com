@@ -5,7 +5,21 @@ h1 {
     font-weight: bold;
 }
 
+/* RESPONSIVE VIDEO EMBEDDING */
+
 div.TRUCKMONTH {
     margin: 0 auto;
     text-align: center;
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+
+div.TRUCKMONTH iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
